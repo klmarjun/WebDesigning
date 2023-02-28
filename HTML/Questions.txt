@@ -1,0 +1,8 @@
+Module 1:
+	- HTML Basics(Formatting Elements)									-(2 Marks)
+	- HTML Lists(Ordered and Unordered[with types])						-(2 Marks)
+	- Images													-(2 Marks)
+	- Links(Syntax and colour)										-(2 Marks)
+	- HTML MultiMedia(Audio &Video)									-(2 Marks)
+	- Tables(given and expected to write code)								-(6 Marks)
+	- Forms(given and expected to write code)								-(6 Marks)

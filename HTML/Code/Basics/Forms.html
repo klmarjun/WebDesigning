@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: rgb(52, 83, 110);
+        }
+    </style>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h3 style="color: rgb(41, 160, 228);margin-left: 120px;">Event Registration</h3>
+    <p style="margin-left: 120px;font-size: small;"><i>Register with us to get more details.</i></p>
+    <hr style="color: aqua;border-color: aqua;">
+    <form>
+        <p>Name</p>
+        
+        <div style="display: inline-block;">
+            
+            <input style="border-color: rgb(38, 204, 204);background-color: aquamarine;" type="text" id="first-name"><br>
+            <label for="first-name">First</label>
+          </div>
+          <div style="display: inline-block;">
+            
+            <input style="border-color: rgb(38, 204, 204);background-color: aquamarine;" type="text" id="last-name"><br>
+            <label for="last-name">Last</label>
+          </div>
+          <br>
+          <br>
+          <label for="Email">Email</label><br>
+          <input style="border-color: rgb(38, 204, 204);background-color: aquamarine;" type="text" id="Email"><br>
+          <br>
+          <div style="display: inline-block;">
+            <label for="cc">CC</label><br>
+            <input style="border-color: rgb(38, 204, 204);background-color: aquamarine;width: 30px;" type="text" id="cc"> <br>
+            </div>
+          <div style="display: inline-block;">
+          <label for="Phoneno">Phone</label><br>
+          <input style="border-color: rgb(38, 204, 204);background-color: aquamarine;" type="text" id="Phoneno"><br>
+          </div>
+          <br>
+          <br>
+          <label for="tpc">Topic</label><br>
+            <select style="border-color: rgb(38, 204, 204);background-color: aquamarine;width: 350px;" id="tpc" name="tpc">
+            <option value="default">Select</option> 
+            <option value="01">Dancing</option>
+            <option value="02">Gymnastics</option>
+            <option value="03">Sports</option>
+            <option value="04">Public Speaking</option>
+            <option value="05">Miming</option>
+            <option value="06">Photography</option>
+            <option value="17">Meme</option>
+        </select>
+        <br>
+        <br>
+          <label for="time">Preferred Slot</label><br>
+            <select style="border-color: rgb(38, 204, 204);background-color: aquamarine;width: 350px;" id="time" name="time">
+            <option value="default">Select</option> 
+            <option value="01">8-10</option>
+            <option value="02">10-12</option>
+            <option value="03">12-14</option>
+            <option value="04">14-16</option>
+            <option value="05">16-18</option>
+            <option value="06">18-20</option>
+            <option value="17">20-22</option>
+        </select>
+        <br>
+        <br>
+        <br><br>
+        <button style="margin-left: 150px;border-color: rgb(38, 204, 204);background-color: aquamarine;" type="button" onclick="alert('Signing you in...')">Sign me up</button>
+
+        <br>
+        <br>
+        <br>
+    </form>
+
+</body>
+</html>

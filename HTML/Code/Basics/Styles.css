@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(151, 59, 226);
+
+}
+h1{
+    color:blue;
+}
+h2{
+    color: beige;
+}
+h3{
+    color:aliceblue;
+}
+h4{
+    color: blueviolet;
+}
+h5{
+    color: royalblue;
+}
+h6{
+    color:chartreuse;
+}
+p{
+    color:black
+}
