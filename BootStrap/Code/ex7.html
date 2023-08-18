@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID REPLICATION</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        ul{
+            list-style-type: none;
+            margin:0;
+            padding:0;
+        
+        }
+        li{
+            display:in;
+            background-color:rgba(36, 148, 179, 0.644);
+            
+        }
+        a:link{
+            color: rgb(134, 36, 29);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" style="height: 50px;background-color: rgba(0, 0, 255, 0.347);">
+            <div class="col-sm-1">
+                <img src="data:image/png;base64,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" height="30">
+            </div>
+            <div class="col-sm-2">
+                <form>
+                    <label for="Tutorial">Tutorials </label>
+                    <select id="Tutorial" name="Tutorial">
+            <option value="default">---Default---</option> 
+            <option value="10">Bootstrap</option> 
+            <option value="11">Python</option>
+            <option value="12">C</option>
+            <option value="13">SQL</option>
+            <option value="14">Java</option>
+            <option value="15">Hacking</option>
+            <option value="16">Angular</option>
+            <option value="17">HTML</option>
+            <option value="18">CSS</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col-sm-3">
+                <form>
+                    <label for="References">References </label>
+                    <select id="Reference" name="Referenece">
+            <option value="default">---Default---</option>            
+            <option value="10">HTML TAG REFERENCE</option> 
+            <option value="11">HTML BROWSER SUPPORT</option>
+            <option value="12">HTML EVENT REFERENCE</option>
+            <option value="13">HTML COLOR REFERENCE</option>
+            <option value="14">HTML ATTRIBUTE REFERENCE</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col-sm-3">
+                <form>
+                    <label for="EXERCISES">EXERCISES </label>
+                    <select id="EXERCISES" name="EXERCISES">
+            <option value="default">---Default---</option>            
+            <option value="10">HTML EXERCISES</option> 
+            <option value="11">JAVASCRIPT EXERCISES</option>
+            <option value="12">PYTHON EXERCISES</option>
+            <option value="13">C EXERCISES</option>
+            <option value="14">SQL EXERCISES</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col-sm-1">
+                <a style="display:contents;color:black" href="https://www.w3schools.com/bootcamp/index.php">BOOTCAMP</a>
+            </div>
+        </div>
+        <div class="row" style="height: 30px;background-color: black;">
+    
+    
+    <div class="col-sm-2"><a href="Home">HTML</a></div>
+    <div class="col-sm-2"><a href="About us">CSS</a></div>
+    <div class="col-sm-2"><a href="About us">CSS</a></div>
+    <div class="col-sm-2"><a href="Contact">JAVASCRIPT</a></div>
+    <div class="col-sm-2"><a href="Contact">SQL</a></div>
+    <div class="col-sm-2"><a href="Contact">PYTHON</a></div>
+    
+        </div>
+        <div class="row" style="height: 30px;">
+            
+        </div>
+        <div class="row" style="height: 30px;">
+            
+        </div>
+        <div class="row" style="height: 30px;">
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
