@@ -1,0 +1,6 @@
+ul{
+    list-style-image: url('gradient_bg.png')
+}
+ol{
+    list-style-type: lower-alpha;
+}

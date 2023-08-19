@@ -1,0 +1,9 @@
+body{
+    /* background-image: url('gradient_bg.png');
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; 
+    background-repeat: no-repeat;
+    background-position: 250px 150px 290px;
+    background-attachment: fixed; */
+    background: #ddaadd90 url('gradient_bg.png') no-repeat fixed top left;
+}

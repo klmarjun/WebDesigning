@@ -1,0 +1,11 @@
+/* a{
+    display:inline
+} */
+/* a{
+    display:block
+} */
+a{
+    display:inline-block;
+    height: 50px;
+    width: 200px;
+}

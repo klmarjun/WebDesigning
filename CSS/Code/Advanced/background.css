@@ -1,0 +1,14 @@
+/* 
+Background-color
+Background-image
+Background-repeat
+Background-attachment
+Background-position
+Background (Short hand Property) 
+*/
+img{
+    background-color: aquamarine;
+    background-image: url('https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/06/2.-Sand-to-Blue.png?q=50&fit=crop&w=1500&dpr=1.5');
+}
+
+        

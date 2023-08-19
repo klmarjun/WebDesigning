@@ -1,0 +1,32 @@
+/* The First inner box will be created of the width size : 320px
+leftpadding(15px)+right padding(15px)=30px(totalPadding)
+leftborder(5px)+right border(5px)=10px(total Border)
+left margin(0px)+right margin(0px)=0px(total Margin)
+Total width=320px+30px+10px+0px
+           =360px
+ */
+/* The total width of an element should be clculated like this :
+    Total element width = width+left padding + right padding +left border + right border
+                            + left margin + right margin */
+/* The total height of an element should be calculated like this :
+    Total element height = height+top padding + bottom padding +top border + bottom border
+                            + top margin + bottom margin      */
+img{
+    width:520px;
+    padding:20px;
+    border:20px solid darkgreen;
+    margin:10px;
+    border-radius: 10px;
+    display: block;
+}
+.text h1{
+    background-color: red;
+}
+.div{
+    background-color: aqua;
+}
+.para{
+    background-color: brown;
+}
+
+
